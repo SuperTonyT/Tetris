@@ -21,7 +21,7 @@ namespace Tetris
         public MainForm()
         {
             InitializeComponent();
-            string ConnStr = @"server = DESKTOP-PD09L5G\SQLEXPRESS;database = Tetris;uid = sa;pwd = supertom98";
+            string ConnStr = @"server = DESKTOP-PD09L5G\SQLEXPRESS;database = Tetris;uid = sa;pwd = xxx";
             conn = new SqlConnection(ConnStr);
         }
 
